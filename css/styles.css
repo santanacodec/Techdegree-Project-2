@@ -29,6 +29,7 @@ ul li {
 main {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	margin-bottom: 10px;
 	background-color: white;
 }
 
@@ -81,6 +82,7 @@ footer p {
 .portfolio-image {
 	display: block;
 	margin: auto;
+	position: relative;
 	max-width: 300px;
 	padding-top: 15px;
 }
@@ -88,11 +90,16 @@ footer p {
 .portfolio-text {
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-bottom: 5px;
 }
 
 /* Media Queries */
 
 @media (min-width: 768px) {
+
+	main {
+		overflow: auto;
+	}
 
 	ul li {
 		display: inline-block;
@@ -105,7 +112,8 @@ footer p {
 		display: inline-block;
 		float: right;
 		margin-left: auto;
-		max-width: 250px;
+		margin-right: 20px;
+		max-width: 260px;
 	}
 
 	#bio {
@@ -117,7 +125,51 @@ footer p {
 	}
 
 	#header-wrapper {
-		margin-bottom: 50px;
-		padding-bottom: 50px;
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+	}
+
+	#wrapper-1 {
+		display: inline-block;
+		width: 50%;
+		float:left;
+	}
+
+	#wrapper-2 {
+		display: inline-block;
+		width: 50%;
+		float:right;
+	}
+
+	#wrapper-3 {
+		display: inline-block;
+		width: 50%;
+		float:left;
+	}
+
+	#wrapper-4 {
+		display: inline-block;
+		width: 50%;
+		float:right;
+	}
+
+	#wrapper-5 {
+		display: inline-block;
+		width: 50%;
+		float:left;
+	}
+
+	#wrapper-6 {
+		display: inline-block;
+		width: 50%;
+		float:right;
+	}
+
+	.portfolio-image {
+		max-width: 350px;
+	}
+
+	.portfolio-text {
+		margin-bottom: 15px;
 	}
 }
