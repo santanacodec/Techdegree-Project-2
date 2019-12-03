@@ -84,13 +84,13 @@ footer p {
 	margin: auto;
 	position: relative;
 	max-width: 300px;
-	padding-top: 15px;
+	padding-top: 20px;
 }
 
 .portfolio-text {
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-bottom: 5px;
+	padding-bottom: 25px;
 }
 
 /* Media Queries */
@@ -133,43 +133,47 @@ footer p {
 		display: inline-block;
 		width: 50%;
 		float:left;
+		padding-bottom: 50px;
+		max-height: 405px;
 	}
 
 	#wrapper-2 {
 		display: inline-block;
 		width: 50%;
 		float:right;
+		padding-bottom: 50px;
+		max-height: 405px;
 	}
 
 	#wrapper-3 {
 		display: inline-block;
 		width: 50%;
 		float:left;
+		max-height: 405px;
 	}
 
 	#wrapper-4 {
 		display: inline-block;
 		width: 50%;
 		float:right;
+		max-height: 405px;
 	}
 
 	#wrapper-5 {
 		display: inline-block;
 		width: 50%;
 		float:left;
+		max-height: 405px;
 	}
 
 	#wrapper-6 {
 		display: inline-block;
 		width: 50%;
 		float:right;
+		max-height: 405px;
 	}
 
 	.portfolio-image {
 		max-width: 350px;
-	}
-
-	.portfolio-text {
-		margin-bottom: 15px;
 	}
 }
