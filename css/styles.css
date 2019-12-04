@@ -26,8 +26,23 @@ ul li {
 	padding: 15px;
 }
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: gray;
+}
+
 main {
-	padding-top: 30px;
+	width: 100%;
+	display: block;
+	padding-top: 35px;
 	padding-bottom: 30px;
 	margin-bottom: 10px;
 	background-color: white;
@@ -77,7 +92,18 @@ footer p {
 	float: right;
 }
 
+#footer-navigation {
+	display: none;
+}
+
 /* Class Selectors */
+
+.introduction {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
 
 .portfolio-image {
 	display: block;
@@ -128,11 +154,11 @@ footer p {
 		font-size: 22px;
 		margin-top: 0;
 	}
-
+/*
 	#header-wrapper {
 		margin-bottom: 25px;
 		padding-bottom: 25px;
-	}
+	} */
 
 	#wrapper-1 {
 		display: inline-block;
@@ -154,6 +180,7 @@ footer p {
 		display: inline-block;
 		width: 50%;
 		float:left;
+		padding-bottom: 50px;
 		max-height: 405px;
 	}
 
@@ -161,6 +188,7 @@ footer p {
 		display: inline-block;
 		width: 50%;
 		float:right;
+		padding-bottom: 50px;
 		max-height: 405px;
 	}
 
@@ -168,6 +196,7 @@ footer p {
 		display: inline-block;
 		width: 50%;
 		float:left;
+		padding-bottom: 50px;
 		max-height: 405px;
 	}
 
@@ -175,12 +204,169 @@ footer p {
 		display: inline-block;
 		width: 50%;
 		float:right;
+		padding-bottom: 50px;
 		max-height: 405px;
+	}
+
+	#footer-navigation {
+		display: none;
 	}
 
 	.portfolio-image {
 		max-width: 350px;
 	}
 
+}
 
+@media (min-width: 1024px) {
+
+	body {
+		margin: 10px;
+		padding: 15px;
+	}
+
+	h1 {
+		float: left;
+	}
+
+	nav {
+		margin-right: 0;
+	}
+
+	ul li {
+		background-color: #F0FFFF;
+		margin-top: 0;
+		margin-right: 0;
+		padding-top: 0;
+		padding-right: 0;
+	}
+
+	main {
+		padding: 10px;
+	}
+/*
+	#header-wrapper {
+		margin-bottom: 25px;
+		padding-bottom: 100px;
+	} */
+
+
+	#navigation {
+		float: right;
+		padding-right: 15px;
+	}
+
+	#avatar {
+		display: inline-block;
+		float: right;
+		margin-left: auto;
+		margin-right: 20px;
+		max-width: 400px;
+	}
+
+	#bio {
+		float: left;
+		text-align: left;
+		margin-left: 0;
+	}
+
+	#wrapper-1 {
+		display: inline-block;
+		width: 305px;
+		float:left;
+		max-height: 405px;
+	}
+
+	#wrapper-2 {
+		display: inline-block;
+		width: 305px;
+		float:none;
+		max-height: 405px;
+	}
+
+	#wrapper-3 {
+		display: inline-block;
+		width: 305px;
+		float: right;
+		max-height: 405px;
+	}
+
+	#wrapper-4 {
+		display: inline-block;
+		width: 305px;
+		float: left;
+		max-height: 405px;
+	}
+
+	#wrapper-5 {
+		display: inline-block;
+		width: 305px;
+		float: none;
+		max-height: 405px;
+	}
+
+	#wrapper-6 {
+		display: inline-block;
+		width: 305px;
+		float: right;
+		max-height: 405px;
+	}
+
+	#contact-wrapper p {
+		font-size: 22px;
+	}
+
+	#top-nav {
+		display: none;
+	}
+
+	#footer-span {
+		display: inline-block;
+		width: 100%;
+		padding: 5px;
+		margin: 5px;
+	}
+
+	#name {
+		margin: 0;
+		padding: 0;
+		font-size: 15px;
+	}
+
+	#footer-navigation {
+		display: inline-block;
+		float: right;
+		margin: 0;
+		padding: 0;
+		font-size: 15px;
+	}
+
+
+	.top {
+		display: inline-block;
+		width: 100%;
+		float: top;
+	}
+
+	.introduction {
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+
+	.first-row  {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.second-row {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.portfolio-image {
+		display: inline-block;
+		max-width: 305px;
+	}
 }

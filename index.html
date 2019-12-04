@@ -11,69 +11,84 @@
 	<body>
 		<div id="header-wrapper">
 			<header>
-				<h1>Edgar Santana</h1>
-				<nav>
-					<ul>
-						<li>HOME</li>
-						<li>PORTFOLIO</li>
-						<li>CONTACT</li>
-					</ul>
-				</nav>
-				<img src="images/responsive-layout-profile.png" id="avatar" alt="profile avatar">
-				<p id="bio">Hello! My name is Edgar Santana and I am a front-end techdegree student at Treehouse and a computer programming student at Gwinnett Technical College. I love creating responsive web pages and I cant wait to learn more!</p>
+				<div class="top" id="top-page">
+					<h1>Edgar Santana</h1>
+					<nav id="navigation">
+						<ul>
+							<li><a href="#top-page">HOME</a></li>
+							<li><a href="#portfolio-page">PORTFOLIO</a></li>
+							<li><a href="#contact-page">CONTACT</a></li>
+						</ul>
+					</nav>
+				</div>
+				<span class="introduction">
+					<img src="images/responsive-layout-profile.png" id="avatar" alt="profile avatar">
+					<p id="bio">Hello! My name is Edgar Santana and I am a front-end techdegree student at Treehouse and a computer programming student at Gwinnett Technical College. I love creating responsive web pages and I cant wait to learn more!</p>
+				</span>
 			</header>
 		</div>
 		<main>
-				<h4>PORTFOLIO</h4>
+				<h4 id="portfolio-page">PORTFOLIO</h4>
+				<span class="first-row">
+					<div id="wrapper-1">
+						<img src="images/portfolio-1.png" class="portfolio-image" alt="first portfolio image">
+						<h3>Marketing Page</h3>
+						<p class="portfolio-text">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+					</div>
 
-				<div id="wrapper-1">
-					<img src="images/portfolio-1.png" class="portfolio-image" alt="first portfolio image">
-					<h3>Marketing Page</h3>
-					<p class="portfolio-text">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-				</div>
+					<div id="wrapper-2">
+						<img src="images/portfolio-2.png" class="portfolio-image" alt="second portfolio image">
+						<h3>Search Page</h3>
+						<p class="portfolio-text">This project searches through a specific database to find information that the user is trying to look up.</p>
+					</div>
 
-				<div id="wrapper-2">
-					<img src="images/portfolio-2.png" class="portfolio-image" alt="second portfolio image">
-					<h3>Search Page</h3>
-					<p class="portfolio-text">This project searches through a specific database to find information that the user is trying to look up.</p>
-				</div>
+					<div id="wrapper-3">
+						<img src="images/portfolio-3.png" class="portfolio-image" alt="third portfolio image">
+						<h3>Travel App</h3>
+						<p class="portfolio-text">This project compares travel times based on different transportation methods and tells you the best one.</p>
+					</div>
+				</span>
+				<span class="second-row">
+					<div id="wrapper-4">
+						<img src="images/portfolio-4.png" class="portfolio-image" alt="fourth portfolio image">
+						<h3>Map of Favorite Spots</h3>
+						<p class="portfolio-text">This project uses mapping API's to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+					</div>
 
-				<div id="wrapper-3">
-					<img src="images/portfolio-3.png" class="portfolio-image" alt="third portfolio image">
-					<h3>Travel App</h3>
-					<p class="portfolio-text">This project compares travel times based on different transportation methods and tells you the best one.</p>
-				</div>
+					<div id="wrapper-5">
+						<img src="images/portfolio-5.png" class="portfolio-image" alt="fifth portfolio image">
+						<h3>Photo Gallery</h3>
+						<p class="portfolio-text">This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+					</div>
 
-				<div id="wrapper-4">
-					<img src="images/portfolio-4.png" class="portfolio-image" alt="fourth portfolio image">
-					<h3>Map of Favorite Spots</h3>
-					<p class="portfolio-text">This project uses mapping API's to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-				</div>
-
-				<div id="wrapper-5">
-					<img src="images/portfolio-5.png" class="portfolio-image" alt="fifth portfolio image">
-					<h3>Photo Gallery</h3>
-					<p class="portfolio-text">This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-				</div>
-
-				<div id="wrapper-6">
-					<img src="images/portfolio-6.png" class="portfolio-image" alt="sixth portfolio image">
-					<h3>Calculator</h3>
-					<p class="portfolio-text">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-				</div>
+					<div id="wrapper-6">
+						<img src="images/portfolio-6.png" class="portfolio-image" alt="sixth portfolio image">
+						<h3>Calculator</h3>
+						<p class="portfolio-text">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+					</div>
+				</span>
 		</main>
 		<div id="contact-wrapper">
-			<h4>CONTACT</h4>
+			<h4 id="contact-page">CONTACT</h4>
 			<p class="portfolio-text">If you want to talk to me for more information about my work then feel free to contact me!</p>
 
-			<p>Phone:<a href="tel:123-456-7890">+1(123)456-7890</a></p>
-			<p>Email:<a href="mailto: example@email.com">example@email.com</a></p>
+			<p>Phone:<b><a href="tel:123-456-7890">+1(123)456-7890</a></b></p>
+			<p>Email:<b><a href="mailto:example@email.com">example@email.com</a></b></p>
 		</div>
 			<hr>
 		
 		<footer>
-			<p id="name">Edgar Santana</p>
-			<p id="top-nav">BACK TO TOP</p>
+			<span id="footer-span">
+				<p id="name">Edgar Santana</p>
+				<p id="top-nav"><a href="#top-page">BACK TO TOP</a></p>
+				<nav id="footer-navigation">
+					<ul>
+						<li><a href="#top-page">HOME</a></li>
+						<li><a href="#portfolio-page">PORTFOLIO</a></li>
+						<li><a href="#contact-page">CONTACT</a></li>
+					</ul>
+				</nav>
+			</span>
 		</footer>
 	</body>
 </html>
