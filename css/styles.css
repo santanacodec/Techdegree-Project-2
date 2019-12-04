@@ -97,6 +97,11 @@ footer p {
 
 @media (min-width: 768px) {
 
+	body {
+		padding-bottom: 25px;
+		margin-bottom: 80px;
+	}
+
 	main {
 		overflow: auto;
 	}
@@ -176,4 +181,6 @@ footer p {
 	.portfolio-image {
 		max-width: 350px;
 	}
+
+
 }
