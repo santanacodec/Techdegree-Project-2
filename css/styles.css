@@ -154,12 +154,7 @@ footer p {
 		font-size: 22px;
 		margin-top: 0;
 	}
-/*
-	#header-wrapper {
-		margin-bottom: 25px;
-		padding-bottom: 25px;
-	} */
-
+	
 	#wrapper-1 {
 		display: inline-block;
 		width: 50%;
@@ -208,8 +203,16 @@ footer p {
 		max-height: 405px;
 	}
 
-	#footer-navigation {
+	#top-nav {
 		display: none;
+	}
+
+	#footer-navigation {
+		display: inline-block;
+		float: right;
+		margin: 0;
+		padding: 0;
+		font-size: 15px;
 	}
 
 	.portfolio-image {
@@ -244,12 +247,6 @@ footer p {
 	main {
 		padding: 10px;
 	}
-/*
-	#header-wrapper {
-		margin-bottom: 25px;
-		padding-bottom: 100px;
-	} */
-
 
 	#navigation {
 		float: right;
